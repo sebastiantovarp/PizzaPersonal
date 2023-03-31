@@ -37,7 +37,7 @@ public class Controller implements ActionListener {
             BufferedImage imagen = v.mipanel.ImagePanel(k);
             
             v.mipanel.image= imagen;
-            v.mipanel.clonar(10);
+            v.mipanel.clonar(100);
 
             v.mipanel.repaint();
 	    v.repaint();

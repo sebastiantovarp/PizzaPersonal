@@ -24,15 +24,15 @@ public class Model {
 Random random = new Random();
 
     //pick a number
-    public int escogeRandom(int nvertices){
+    public int escogeRandom(int n){
        
-        int opcion= (int) (Math.floor(Math.random() * (nvertices))+0);
+        int opcion= (int) (Math.floor(Math.random() * (n))+0);
         return opcion;
     }
     
     public void dibujar(String s)throws IOException{
-        int width = 963;    //width of the image
-        int height = 640;   //height of the image
+        int width = 50;    //width of the image
+        int height = 50;   //height of the image
         BufferedImage image = null;
         File f = null;
 

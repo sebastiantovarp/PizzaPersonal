@@ -57,7 +57,7 @@ public class Panel extends JPanel {
             Graphics2D g2d=(Graphics2D)g;
             super.paintComponent(g);
             for (BufferedImage x: listaImagen) {
-            	g.drawImage(x, 0, 0, null); // Draw the image at location (0,0)
+            	g.drawImage(x, 0, 0, x.getHeight(), x.getWidth(), null); // Draw the image at location (0,0)
 			} 
             
             
